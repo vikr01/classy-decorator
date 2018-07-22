@@ -1,12 +1,12 @@
 import "babel-polyfill";
 import assert from "assert";
-import classy from "../lib/index";
+import classy from "../dist/index";
 
 /*
  * Fixtures
  */
 
-@classy()
+@classy
 class IamClassy {
     constructor(a, b) {
         this.a = a;
