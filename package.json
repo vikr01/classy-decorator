@@ -6,7 +6,8 @@
   "scripts": {
     "compile": "babel -d lib/ src/",
     "test": "npm run compile && mocha --compilers js:babel-core/register",
-    "prepublish": "npm run compile"
+    "prepublish": "npm run compile",
+    "prepare": "npm run compile"
   },
   "repository": {
     "type": "git",
