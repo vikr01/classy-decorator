@@ -2,9 +2,9 @@
   "name": "classy-decorator",
   "version": "1.0.4",
   "description": "Create an instance of your javascript class without `new` keyword because this is more classy ;)",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "compile": "babel -d lib/ src/",
+    "compile": "babel -d dist/ src/",
     "test": "npm run compile && mocha --compilers js:babel-core/register",
     "prepublish": "npm run compile",
     "prepare": "npm run compile"

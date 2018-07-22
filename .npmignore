@@ -2,3 +2,4 @@
 src/
 .gitignore
 .babelrc
+yarn.lock
